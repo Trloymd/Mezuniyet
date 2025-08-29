@@ -1,1 +1,3 @@
 # Mezuniyet
+## Projemin fikri:
+> 
