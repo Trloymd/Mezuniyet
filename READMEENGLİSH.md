@@ -29,4 +29,3 @@
  Karatay Metropolitan Municipality
 # And as a pioneer, Eskisehir Metropolitan Municipality
 
-Translated with DeepL.com (free version)
