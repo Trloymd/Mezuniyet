@@ -15,7 +15,7 @@
 
 
 
-##Desteklenen Belediye ve Şehirler ;
+## Desteklenen Belediye ve Şehirler ;
 
-#İstanbul BüyükŞehirBelediyesi, İzmir BüyükŞehirBelediyesi, Ankara büyükşehir belediyesi, Mersin BüyükŞehirBelediyesi, Antalya BüyükŞehirBelediyesi, BursaBüyükŞehirBelediyesi, Şanlıurfa BüyükŞehirBelediyesi, Kahramanmaraş BüyükŞehirBelediyesi, Konya BüyükŞehirBelediyesi, Karatay BüyükŞehirBelediyesi
+# İstanbul BüyükŞehirBelediyesi, İzmir BüyükŞehirBelediyesi, Ankara büyükşehir belediyesi, Mersin BüyükŞehirBelediyesi, Antalya BüyükŞehirBelediyesi, BursaBüyükŞehirBelediyesi, Şanlıurfa BüyükŞehirBelediyesi, Kahramanmaraş BüyükŞehirBelediyesi, Konya BüyükŞehirBelediyesi, Karatay BüyükŞehirBelediyesi
 # Ve öncü olarak Eskişehir BüyükŞehir Belediyesi
