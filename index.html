@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yazılımcılar Sitesi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3 url('/static/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+            width: 360px;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
+        a {
+            display: block;
+            margin: 15px 0;
+            padding: 15px;
+            text-decoration: none;
+            background: #0077cc;
+            color: white;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.2s;
+        }
+        a:hover {
+            background: #005999;
+            transform: translateY(-2px);
+        }
+        .small {
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Müşteri misin? Yaratıcı mısın?</h1>
+        <a href="/musteri">Müşteri</a>
+        <a href="/yaratici">Yaratıcı</a>
+        <p class="small">Not: Yaratıcılar bölümünden profil ekleyebilir, müşteriler de profillere bakabilir.</p>
+    </div>
+</body>
+</html>

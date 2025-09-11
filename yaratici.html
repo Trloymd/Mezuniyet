@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>Yaratıcı Hesap Oluştur</title>
+    <style>
+        body { font-family: Arial, sans-serif; background:#f3f3f3; padding:30px; }
+        form { background:white; padding:20px; border-radius:12px; width:400px; margin:auto; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+        label { display:block; margin-top:10px; font-weight:bold; }
+        input, textarea, select { width:100%; padding:8px; margin-top:5px; border-radius:6px; border:1px solid #ccc; }
+        button { margin-top:15px; padding:10px 20px; background:#0077cc; color:white; border:none; border-radius:6px; cursor:pointer; }
+        button:hover { background:#005999; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Yaratıcı Hesap Oluştur</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        <label>İsim</label>
+        <input type="text" name="isim" required>
+
+        <label>Açıklama</label>
+        <textarea name="aciklama" required></textarea>
+
+        <label>Kategori</label>
+        <select name="kategori" required onchange="toggleDil(this.value)">
+            <option value="">Seçiniz</option>
+            <option value="yazılımcı">Yazılımcı</option>
+            <option value="level designer">Level Designer</option>
+            <option value="modeler">Modeler</option>
+            <option value="ses sanatçısı">Ses Sanatçısı</option>
+            
+        </select>
+
+        <div id="dilSecimi" style="display:none;">
+            <label>Yazılım Dili</label>
+            <select name="dil">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Ruby">Ruby</option>
+            </select>
+        </div>
+
+        <label>Fotoğraf</label>
+        <input type="file" name="foto" accept="image/*">
+
+        <button type="submit">Kaydet</button>
+    </form>
+
+    <script>
+        function toggleDil(value) {
+            document.getElementById("dilSecimi").style.display = (value === "yazılımcı") ? "block" : "none";
+        }
+    </script>
+</body>
+</html>
